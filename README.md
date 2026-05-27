@@ -55,6 +55,18 @@ Para rodar sem a interface gráfica (apenas estatísticas):
 ```bash
 python pacman.py -l mediumMaze -p SearchAgent -a fn=sa -q
 ```
+---
+## ✍️ Autoria
+
+Este projeto foi desenvolvido por:
+
+- Samuel Santos
+Estudante de Sistemas de Informação – UFBA.
+GitHub: [samucaasantos](https://github.com/samucaasantos)
+
+- Jorge Ferreira
+Estudante de Sistemas de Informação – UFBA.
+GitHub: [Jorgefrgs](https://github.com/Jorgefrgs)
 
 ---
 *Este projeto foi desenvolvido para fins acadêmicos na Universidade Federal da Bahia (UFBA).*

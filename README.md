@@ -31,7 +31,7 @@ Abaixo está a estrutura de diretórios e os arquivos principais do projeto:
  ┣ 📂 test_cases/        # Casos de teste e configurações do autograder original
  ┣ 📜 pacman.py          # Arquivo principal para rodar o jogo
  ┣ 📜 search.py          # ONDE O CÓDIGO FOI FEITO: Implementação do Simulated Annealing
- ┣ 📜 run_experiments.py # NOVO: Script para automação de testes e coleta de dados
+ ┣ 📜 run_experiments.py # Script para automação de testes e coleta de dados
  ┣ 📜 searchAgents.py    # Define os agentes de busca (avaliação de custo, objetivo)
  ┣ 📜 util.py            # Estruturas de dados e funções utilitárias (ex: manhattanDistance)
  ┣ 📜 game.py            # Lógica central do estado e regras do jogo Pac-Man

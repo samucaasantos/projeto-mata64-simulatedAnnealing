@@ -20,6 +20,8 @@ Pacman agents (in searchAgents.py).
 import util
 import random
 import math
+import os
+
 
 class SearchProblem:
     """
@@ -121,9 +123,9 @@ def simulatedAnnealingSearch(problem, heuristic=None):
         heuristic = nullHeuristic
 
     # 1. Variáveis Obrigatórias da Especificação
-    T = 1000.0 #temperatura inicial
-    alpha = 0.995 #taxa de resfriamento
-    Tmin = 0.01 #temperatura mínima para aceitar soluções piores com base em probabilidade
+    T = float(os.environ.get("SA_T", 1000.0)) #temperatura inicial
+    alpha = float(os.environ.get("SA_ALPHA", 0.995)) #taxa de resfriamento
+    Tmin = float(os.environ.get("SA_TMIN", 0.01)) #temperatura mínima para aceitar soluções piores com base em probabilidade
 
     # 2. Inicialização do estado e caminho
     current_state = problem.getStartState()
